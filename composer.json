@@ -1,0 +1,23 @@
+{
+  "name": "pshilyaev/dzen-rss-out",
+  "description": "Simple exporter for Yandex RSS",
+  "type": "library",
+  "license": "MIT",
+  "autoload": {
+    "psr-4": {
+      "Pshilyaev\\DzenRssOut\\": "src/"
+    }
+  },
+  "authors": [
+    {
+      "name": "Pavel Shilyaev"
+    }
+  ],
+  "require-dev": {
+    "phpunit/phpunit": "^9.5"
+  },
+  "require": {
+    "php": "^8",
+    "ext-simplexml" : "*"
+  }
+}
